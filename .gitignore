@@ -1,0 +1,22 @@
+# .gitignore para ICARIA Intelligence Platform
+
+# Este archivo .gitignore está diseñado para evitar que se suban archivos innecesarios al repositorio.
+# Asegúrate de no excluir datos, memoria ni documentación esencial del proyecto.
+
+# Ignorar el directorio de dependencias de Node.js
+node_modules/
+
+# Ignorar archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos temporales de editores
+*.swp
+*.swo
+*.tmp
+
+# Permitir la documentación y otros recursos
+# No es necesario incluir reglas específicas para documentos importantes
